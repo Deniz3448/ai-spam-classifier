@@ -1,14 +1,21 @@
-# ai-spam-classifier
-An AI-based spam detection system built with Python and scikit-learn, achieving high accuracy using natural language processing techniques.
+# AI Spam Classifier
 
-This project uses machine learning to classify messages as spam or not spam.
+This project is a machine learning model that classifies messages as spam or not spam using NLP techniques.
 
 ## Features
-- Text classification
+- Text classification (Spam / Not Spam)
 - Machine learning model (Naive Bayes)
-- Accuracy evaluation
+- Accuracy: ~95%
 
 ## Technologies
 - Python
-- Scikit-learn
 - Pandas
+- Scikit-learn
+
+## Example
+
+Input:
+"Congratulations! You won a free ticket"
+
+Output:
+Spam
